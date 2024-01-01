@@ -29,6 +29,7 @@ const Layout = () => {
     >
       {navBar && <Sidebar />}
 
+
       <div className="flex flex-col flex-1 w-full">
         <Header />
         <Main>
