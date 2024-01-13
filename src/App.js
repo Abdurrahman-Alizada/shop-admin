@@ -23,9 +23,9 @@ const App = () => {
         <AccessibleNavigationAnnouncer />
         <Switch>
           <Route path="/login" component={Login} />
-          <Route path="/signup" component={SignUp} />
-          <Route path="/forgot-password" component={ForgetPassword} />
-          <Route path="/reset-password/:token" component={ResetPassword} />
+          {/* <Route path="/signup" component={SignUp} /> */}
+          {/* <Route path="/forgot-password" component={ForgetPassword} /> */}
+          {/* <Route path="/reset-password/:token" component={ResetPassword} /> */}
 
           <PrivateRoute>
             {' '}

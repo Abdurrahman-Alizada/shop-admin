@@ -339,7 +339,7 @@ const InvoiceForDownload = ({ data, currency, globalSetting }) => {
               >
                 <Image
                   src={logoDark}
-                  alt="dashtar"
+                  alt="naginayshop"
                   style={{
                     width: 80,
                   }}
